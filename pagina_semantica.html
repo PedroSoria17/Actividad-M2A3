@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>Mi Sitio</title>
+ <style>
+ body { 
+   font-family: system-ui, sans-serif; 
+   max-width: 900px;
+   margin: 2rem auto; 
+   line-height: 1.5; 
+ }
+ header, nav, main, aside, article, footer, section { 
+   padding: 12px; 
+   border: 1px solid #ddd; 
+   margin-bottom: 12px; 
+ }
+ nav a { margin-right: 8px; }
+ .label { font-weight: bold; color: #333; }
+ .date { color: #666; }
+ blockquote { 
+   font-style: italic; 
+   margin: 1em 2em; 
+   color: #444; 
+ }
+ address { 
+   font-style: normal; 
+   color: #333; 
+ }
+ </style>
+</head>
+<body>
+ <header>
+   <h1>Mi Blog Personal</h1>
+   <nav aria-label="Menú principal">
+     <a href="#">Ir al inicio</a>
+     <a href="#">Ver artículos</a>
+     <a href="#">Ir a la página de contacto</a>
+   </nav>
+ </header>
+
+ <main>
+   <article>
+     <h2>Novedades de HTML5</h2>
+     <p class="date">Publicado el 
+       <time datetime="2024-12-20">20/12/2024</time>
+     </p>
+     <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+     
+     <blockquote>
+       “a uniquely portable magic”  
+       <cite>Stephen King</cite>
+     </blockquote>
+     
+     <p><span class="label">URL:</span> 
+       <a href="https://www.example.com">Visitar example.com</a>
+     </p>
+     <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+   </article>
+ </main>
+
+ <aside>
+   <section>
+     <h2>Acerca de</h2>
+     <p>Desarrollador web y escritor ocasional.</p>
+   </section>
+   <section>
+     <h2>Contacto</h2>
+     <address>
+       <span class="label">Email:</span> 
+       <a href="mailto:contacto@ejemplo.com">Enviar correo a contacto@ejemplo.com</a>
+     </address>
+   </section>
+ </aside>
+
+ <footer>
+   <div>© 2025 Mi Sitio</div>
+   <div>Hecho con <em>café</em> y paciencia.</div>
+ </footer>
+</body>
+</html>
